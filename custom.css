@@ -1,0 +1,553 @@
+/*** General Styling
+BoylanBlue - #21386e
+Peach - #cea180
+Grey - #656566
+****/
+
+#logo .site-title, #logo .site-description {display:none; }
+body {background-repeat:no-repeat;background-position:top left;background-attachment:scroll;border-top:0px solid #000000;}
+a:link, a:visited, #loopedSlider a.flex-prev:hover, #loopedSlider a.flex-next:hover {color:#656566} .quantity .plus, .quantity .minus {background-color:#21366E;}
+a:hover, .post-more a:hover, .post-meta a:hover, .post p.tags a:hover {color:#21366E}
+body #wrapper #content .button, body #wrapper #content .button:visited, body #wrapper #content .reply a, body #wrapper #content #respond .form-submit input#submit, input[type=submit], #navigation ul.cart .button {background:#223770}
+#header {background-color:#ffffff;background-repeat:no-repeat;background-position:left top;margin-top:0px;margin-bottom:0px;padding-top:40px;padding-bottom:40px;border:0px solid ;}
+#logo .site-title a {font:normal 40px/1em 'Museo Slab W01',Arial, sans-serif;color:#222222;}
+#logo .site-description {font:normal 13px/1em 'Museo Slab W01',Arial, sans-serif;color:#999999;}
+#nav-container{background:#fff;}#nav-container{border-top:0px solid #ffffff;border-bottom:0px solid #ffffff;border-left:none;border-right:none;}#nav-container #navigation ul#main-nav > li:first-child{border-left: 0px solid #ffffff;}
+.topnav_section .nav_section.first > ul, .topnav_section .nav_section.third > ul { margin: 0 !important}
+#footer-widgets-container{background-color:#21386e}#footer-widgets{border:none;}#footer-container{background-color:#21386e; text-align: center}#footer {border-width: 0 !important;}
+body, p {font:normal 14px/1.5em 'Museo Slab W01',Arial, sans-serif;color:#555555; }
+h1 {font:normal 28px/1.6em 'Museo Slab W01',Arial, sans-serif;color:#21386E; }h2 {font:normal 24px/1.2em 'Museo Slab W01',Arial, sans-serif;color:#21386E; }h3 {font:normal 20px/1.2em Arial, sans-serif;font-weight:300;color:#21386E; text-transform: uppercase}h4 {font:normal 16px/1.2em 'Museo Slab W01',Arial, sans-serif;color:#21386E; }h5 {font:normal 14px/1.2em 'Museo Slab W01',Arial, sans-serif;color:#21386E; }h6 {font:normal 16px/1.2em 'Museo Slab W01',Arial, sans-serif;color:#21386E; }
+.page-title, .post .title, .page .title {font:normal 28px/1.1em 'Open Sans', arial, sans-serif;color:#565656;}
+.post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {color:#565656}
+.post-meta {font:normal 12px/1.5em 'Museo Slab W01',Arial, sans-serif;color:#999999; }
+.entry, .entry p{font:normal 15px/1.5em 'Open Sans', arial, sans-serif;color:#565656; }
+.post-more {font:normal 13px/1.5em 'Museo Slab W01',Arial, sans-serif;color:; text-align: center; margin-bottom: 20px}
+#post-author, #connect {border-top:0px solid #e6e6e6;border-bottom:0px solid #e6e6e6;border-left:0px solid #e6e6e6;border-right:0px solid #e6e6e6;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;background-color:#fafafa}
+.nav-entries a, .woo-pagination {font:normal 13px/1em 'District Pro W01',Arial, sans-serif;color:#888; }
+.woo-pagination a, .woo-pagination a:hover {color:#656566 !important}
+.widget h3 {font-size:1.2em;color:#555555;border-bottom:1px solid #e6e6e6;}
+.widget_recent_comments li, #twitter li {border-color:#e6e6e6;}
+
+.widget p, .widget .textwidget {font-size: 1.2em;}
+.footer-widgets {color: #fff}
+.widget {font:normal 13px/1.5em 'Museo Slab W01',Arial, sans-serif;color:#555555;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+#tabs .inside li a, .widget_woodojo_tabs .tabbable .tab-pane li a {font:normal 12px/1.5em 'Museo Slab W01',Arial, sans-serif;color:#555555; }
+#tabs .inside li span.meta, .widget_woodojo_tabs .tabbable .tab-pane li span.meta {font:normal 11px/1.5em 'Museo Slab W01',Arial, sans-serif;color:#999999; }
+#tabs ul.wooTabs li a, .widget_woodojo_tabs .tabbable .nav-tabs li a {font:normal 11px/2em Arial, sans-serif;color:#999999; }
+
+#footer, #footer p {font:normal 11px/1.4em Arial, sans-serif;color:#ffffff; }
+#footer {border-top:1px solid #21386a;border-bottom:1px solid #21386a;border-left:0px solid #E6E1DD;border-right:0px solid #E6E1DD;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+#footer-widgets .textwidget{ color: #fff; text-align: center; font-size: 0.9em; letter-spacing: 2px; }
+.footersocial>li{ display: inline-block; padding: 0 5px}
+.footersocial img{ width:50px}
+#footer-container { padding-bottom: 50px;}
+
+.magazine #loopedSlider .content h2.title a {font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-magazine .slide-title a {font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.magazine #loopedSlider .content .excerpt p {font:300 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.wooslider-theme-magazine .slide-content p, .wooslider-theme-magazine .slide-excerpt p {font:300 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.magazine .block .post .title {font:normal 18px/1.2em Arial, sans-serif;color:#222222; }
+#loopedSlider.business-slider .content h2 {font:normal 24px/1em Arial, sans-serif;color:#ffffff; }
+#loopedSlider.business-slider .content h2.title a {font:normal 24px/1em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-business .has-featured-image .slide-title {font:normal 24px/1em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-business .has-featured-image .slide-title a {font:normal 24px/1em Arial, sans-serif;color:#ffffff; }
+#wrapper #loopedSlider.business-slider .content p {font:normal 18px/1.5em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-business .has-featured-image .slide-content p {font:normal 18px/1.5em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-business .has-featured-image .slide-excerpt p {font:normal 18px/1.5em Arial, sans-serif;color:#ffffff; }
+
+ul.nav ul li.current_page_item a, ul.nav ul li.current_page_parent a, ul.nav ul li.current-menu-ancestor a, ul.nav ul li.current-cat a, ul.nav ul li.current-menu-item a, #navigation ul.cart .cart_list a {background: none; color:#21386e;}
+.archive_header {font:normal 18px/1em Arial, sans-serif;color:#222222; }
+.archive_header {border-bottom:1px solid #e6e6e6;}
+.archive_header .catrss {display:none; }
+.post p.tags {display: none}
+.allw {color: #e53330 !important}
+
+
+/*** Theme Styling Ends ***/
+
+.entry img, img.thumbnail, #portfolio .group.portfolio-img img {border: 0}
+.title {color:#23376F}
+/*body.home #header {padding: 10px 0 15px !important} */
+div#logo {margin: 0 auto; text-align: center; float: none  }
+ul.nav li a {text-transform: uppercase}
+.entry h3 {color:#656566; font-weight: 300; font-size: 1.3em; text-transform: uppercase; letter-spacing:3px}
+h3 a:hover{text-decoration: none}
+.padding20 {padding-bottom: 20px}
+.borderbottom {border-bottom: 2px solid #21386e}
+.blogtitle {width: 40%; margin: 0 auto !important; text-transform: uppercase !important}
+div.blog h2.title, h1.blog-entry-title {font-family: 'District Pro W01'; text-transform: uppercase; color:#656566; padding:1em 0 1.5em; font-weight: 200; letter-spacing: 2px; line-height: 1.2em}
+
+h1.blog-entry-title {padding:.2em 0 1.5em; }
+
+.blogexcerpt p {font-family: 'Museo Slab W01' !important; margin: 0 auto; padding: 30px 0 25px; max-width: 675px;font-size: 0.85em; letter-spacing: 1px}
+.postsingle p {font-family: 'Museo Slab W01' !important; margin: 0 auto; max-width: 650px;font-size: 0.85em; letter-spacing: 1px; text-align: justify}
+.read-more a, .post-entries a { text-transform: uppercase; letter-spacing: 1px}
+.postsingle img:first-child {  margin-bottom: 40px;}
+
+
+/**Homepage Styles **/
+body.home #homepost .threecol-one, body.page-id-246 .threecol-one {cursor: pointer}
+body.home .twocol-one:first-child:after {background-color:#E6E0DA; background-repeat: no-repeat; bottom: 0; content: " "; display: block; position: absolute; right: -3px; height: 100%; width: 5px}
+#homepost {background-color:#fdf7e8}
+.imagetitle {padding-top: 30px;}
+.home_blogtitle {font-size: 2.2em; font-weight: 200; padding: 3em 0 0.2em; display: block; clear: both;text-transform: uppercase; letter-spacing:4px; color:#565656;margin-bottom: 0}
+.home_blogsubtitle {color:#999;font-size: 1.1em;font-weight: 100; letter-spacing: 2px; padding: 0 0 1.5em; }
+.slide-excerpt {background: none !important}
+.business h3 {margin: 1.3em 0 1em;}
+a.seeall {border-radius: 5px; font-size: 1em; padding: 12px 45px; display: inline-block; border: 0; transition: background-color 0.2s ease !important; width:auto; background-color: #223770; letter-spacing: 1px; letter-spacing: 3px}
+a.seeall:hover {background-color: #176b93 !important;}
+p.homeproducts { font-family: 'museo slab w01' !important; text-align: center}
+
+
+/*** Instagram Styles **/
+#sb_instagram {margin: 0 auto 7em;}
+#sb_instagram img {float: none; width: 309px}
+#sbi_images a { margin-right: 1.3%; width: 24%}
+#sbi_images a:last-child { margin-right: 0}
+
+/*** 404 Styles **/
+.paddingtop { margin: 20px 0}
+
+/*** Slider Styles **/
+body .wooslider .wooslider-control-nav {margin-top: -20px}
+.wooslider-control-paging li a {background: transparent; box-shadow: none; color:#fff}
+.wooslider .wooslider-control-nav {opacity: 1}
+.wooslider .wooslider-control-nav li a {border-color:#fff; background: #fff; height: 10px; width: 10px}
+.wooslider .wooslider-control-nav li a.wooslider-active {background: transparent; border-color:#fff}
+.wooslider-theme-business .has-featured-image .slide-content, .wooslider-theme-business .has-featured-image .slide-excerpt {
+background: rgba(0, 0, 0, 0) !important; position: absolute; padding: 15px 10px; top: 20%; margin: 0 auto; left: 0; right:0; text-align: center}
+h2.slide-title {font: 73px/1em 'District Pro W01' !important}
+.wooslider-theme-business .has-featured-image .slide-except p, .slide-excerpt p{color:#fff !important; font-family: 'Museo Slab W01' !important; font: 18px/1.5em 'Museo Slab W01'; font-weight: 100 !important;}
+.wooslider-slider-business {margin: 0 0 50px !important;}
+
+/*** Navigation Styles **/
+
+#navigation .cart {display: block !important}
+#navigation ul.cart li:hover a.cart-contents, #navigation ul.cart a.cart-contents + ul {background-color:#FCEDCC !important}
+section.menus .side-nav {  position: absolute; right: 0;   top: 0;  width: 5em;}
+#navigation ul.cart a.cart-contents { text-indent:0}
+#nav-container {margin: 0 0 4.5em}
+.nav-toggle a, section.menus h3, .cart_list li a, .total {font-family: "District Pro W01" !important; color: #656566 !important}
+a.button {text-align: center !important; padding: 12px 45px}
+.nav_section.first ul.nav li a{padding: 0.5em 2em;font-size: 0.9em;
+    letter-spacing: 2px;}
+.nav_section.third ul.nav li a{padding: 0.5em 1.9em;font-size: 0.9em;
+    letter-spacing: 2px;}
+.nav-toggle:before { color: #21386e; text-shadow: none}
+#menu-item-3644 > a {    padding: 0.5em 2em 0.5em 3em;}
+
+/*#menu-item-4031 a:hover{background-color:#FCEDCC !important }
+
+ #menu-item-4031 ul.sub-menu li a:hover,#menu-item-4031 ul.sub-menu li, #menu-item-4031 ul.sub-menu{background-color:#FCEDCC !important }
+#menu-item-4031 ul.sub-menu li {background-color:#FCEDCC !important  }
+
+*/
+ul.sub-menu li a,.menus li a {text-align: left}
+ul.sub-menu li a:hover {text-align: left; text-decoration: none !important}
+.post-3891 header h1 {margin: 0; height: 20px}
+.productlist a img { border: 3px solid #fff; margin-bottom: 3em}
+.productlist a img:hover { border: 3px solid #21386e; transition: all .3s linear}
+
+
+/*** Cart Styles ***/
+#navigation ul.cart a.cart-contents:before {float: right; text-align: right}
+.cart-contents {width: 9em !important; float: left; text-transform: uppercase; font-size: 0.9em;}
+#navigation ul.cart a.cart-contents + ul, #navigation ul.cart a.search-contents + ul, #navigation ul.nav-search a.cart-contents + ul, #navigation ul.nav-search a.search-contents + ul{width: 14em}
+.product_list_widget ul a {text-align: left}
+/**** Content Hover JS Styles ******/
+.contenthover {padding:45px 20px 10px 20px; text-align: center }
+.contenthover, .contenthover h3, contenthover a {color:#fff; }
+.contenthover h3, .contenthover p {margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton {display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover {background:#34742d }
+div.coupon input.input-text { text-align: left !important;}
+
+/****** Contact Form Styles *******/
+article.post-246 header {display: none}
+div#gform_wrapper_2 {margin: 10px 15%}
+article.post-246 h2.featured {text-transform: none}
+.gform_wrapper textarea.large {height:125px}
+form.contactform input.gform_image_button {display: block;margin: 0 auto;}
+form .gfield_label {color:#23376F; font-weight: normal !important}
+article.post-3542 section.entry {}
+div.contactusform {margin: 0 auto; width:600px}
+input[type='submit']{   -webkit-appearance: none;   -moz-appearance: none;   appearance: none; }
+.wpcf7-submit.submit_button {background-color:#fff;   border: 1px #21386e solid !important;   color:#21386e !important;   border-radius: 0;    margin: 0 auto !important;     box-shadow: 0;}
+input.wpcf7-submit:hover {margin: 0 auto !important; background-color:#21386e; color:#fff !important}
+
+/* input.wpcf7-submit,input.wpcf7-submit:hover {color:#FFFFFF; font-size: 0px; width: 345px !important; height: 89px; border: none; margin: 0 auto !important; padding: 0; background-image: url('img/send-message.png') !important; text-indent: -9999px; box-shadow: none !important; display: block !important; background-repeat: no-repeat; background-color:#fff} */
+div.contactusform .fourcol-three, div.contactusform .fourcol-one {margin-bottom: 2%}
+
+/* Pages Styles */
+h1 {margin-top: 20px}
+/* div.custombg-15 {background-color:#fdf7e9 } */
+.customheaderimg>.col-full>.main-title>h1 {padding-top: 40px; font-family:'District Pro W01'; font-size: 71px; text-shadow: none; text-transform: uppercase}
+.customheader-container-15>.customheaderimg>.col-full>.main-title>h1{padding-top: 0;font-size:2em; letter-spacing: 2px}
+.subtitle {color:#fff}
+.customheader-container-15 {display: block; clear:both; height: 1px}
+.article.post-15 h1 {margin: 20px auto 40px !important}
+.customheader-container-15 .customheaderimg{ background-size: cover; height: 100%; width: 100% }
+.customheader-container-3891 {height: 250px}
+.customheader-container-3891 .customheaderimg{background-image: url('img/productspagebanner.jpg'); background-position: center center; background-size: cover; height: 100%; width: 100% }
+.post-3891 header h1,.post-25 header h1{visibility: hidden }
+.customheader-container-25>customheaderimg>.col-full>.main-title>h1 {padding-top: 10%} 
+.customheader-container-3542 {display: none}
+.subtitle { margin:-2em 0 2em !important; text-align: center}
+/*.customheader-container-3542 {height: 250px}
+.customheader-container-3542 .customheaderimg{background-image: url('img/contact-page.jpg'); background-position: center center; background-size: cover; height: 100%; width: 100% }
+ .customheader-container-25 {height: 250px}
+.customheader-container-25 .customheaderimg{background-image: url('img/map-for-find-boylan.jpg'); background-position: center center; background-size: cover; height: 100%; width: 100% }
+.customheader-container-25 h1.pagetitle,.customheader-container-25 .subtitle{color:#656566; padding-top:60px !important}
+*/
+.customheader-container-25,.post-25 header h1,.post-3542 header h1,.customheader-container-15>.customheaderimg>.col-full>.sub-title { display: none}
+.page-id-15 .entry img {padding: 0}
+.custombg-15 h1.pagetitle { color: #233870; font-size: 1.6em}
+.fc_back p {padding: 20px; font-size: 1.1em; line-height: 2.2em}
+article.post-15 {margin: 0 auto;width: 800px}
+article.post-15 h1 {}
+article.post-15 h3 {color: #21386e}
+article.post-15 .woo-sc-hr { margin-bottom: 50px}
+.heritageinfo {width: 80%;margin: 0 auto;text-align: justify;}
+.heritageinfo h3 {text-transform: none}
+.heritageinfo p, .maincatdetail p, p.homeproducts {font-family: 'Museo Slab W01' !important; color: #B3B1B1; font-weight: 100 !important; font-size: normal 14px/1.5em !important}
+
+
+/* Fountain Page */
+div.fountain {font-family: 'Museo Slab W01' !important; color: #B3B1B1; font-weight: 200 !important; font-size: normal 14px/1.5em !important; padding:20px 65px; text-align: justify}
+div.fountain p { color:#B3B1B1; line-height:2em; font-family:'Museo Slab W01',Arial, sans-serif;}
+h2.ftitle {color: #656565; text-transform:uppercase;letter-spacing: 3px; padding-top: 50px; font-size:1.3em}
+.post-4807 {overflow: hidden}
+.post-4807 div.twocol-one:after {background: #B3B1B1; width: 1px; content: ''; display:block; position: absolute; top:125px; bottom: 145px; right: -4%}
+.post-4807 h1 {background-color: #fff; color: #656565 !important; display: inline-block;font: 200 24px/1.2em "District Pro W01",Arial,sans-serif !important; letter-spacing: 3px;margin: 20px auto 0; padding: 0 20px !important;  position: relative;  z-index: 999;}
+article.page header { text-align:center}
+
+/* Display None Titles */
+h1.page-title-122, h1.page-title-3729, h1.page-title-3739, h1.page-title-291, h1.page-title-274, h1.page-title-4691 {display: none}
+.entry img, img.thumbnail, #portfolio .group.portfolio-img img {padding: 0}
+img.swapimg{opacity: 1;  filter: alpha(opacity=100)}
+img.swapimg:hover{opacity: 0.6;   filter: alpha(opacity=80)}
+h3.findboylanhead {font-size: 36px; letter-spacing: 4px; font-weight: 400}
+.findtext {text-align: center;color: #b3b1b1; font-weight: 100; letter-spacing: 2px; font-size: 1em;font-family: 'Museo Slab W01' !important; padding: 1.5em 0 .5em}
+
+article.post-3542 h1.featured{ margin: 30px auto 20px} 
+.img-contactus {  margin-bottom: 2.2em}
+
+/* Find Boylan */
+.hc .input-small { width: 50px;}
+.hc a {color: #21386e;}
+.hc a:hover {color: #21386e;text-decoration: underline}
+/* The CSS */
+
+input, textarea { font-weight: 100; border-color:#d6d6d6}
+.wpcf7-select { width: 350px}
+.entry table { border-color: #d6d6d6}
+
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+
+/*Contact Us */
+
+.contenthover h3, .contenthover p {margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton {display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover {background:#34742d }
+
+/* Store Locator Styles */
+
+#wpsl-search-btn {background-color:#000066}
+
+/******* Blog Styles *******/
+section.entry h1.title{text-align: center; margin: 0 auto; color:#23376F}
+body.page-id-246 div#loopedSlider  display: none}
+span.entry-title, .contenthover p, span.entry-title a {display: table;   margin: 0 auto;   text-align: center;width: 100%;}
+.contenthover a {color:#23376F !important}
+ span.entry-title a:hover {text-decoration: none}
+/* .postlinks img {border: 1px solid #23376F; padding: 10px; } */
+div.ch_element {margin: 0 auto}
+p.postdate, span.blogthumb p, a.excerptlink{font-family: 'Museo Slab W01'; color:#23376f; text-align: center}
+.title.entry-title.blogthumb {text-align: center;}
+
+/*a.blogthumblink {font-family: 'District Pro W01'; font-weight: 400; font-size: .9em; color:#23376f}*/
+a.blogthumbtitle {font-family: 'District Pro W01'; font-weight: 400; font-size: 1.2em; color:#23376f}
+.blogthumb a {font-family: 'District Pro W01'; font-weight: 400; font-size: 1.2em; color:#23376f}
+.dotted-border-top {margin: 15px 0 10px}
+.cart-dotted-line {background-image: url('img/dots.png'); width: 100%; height: 3px}
+a.blogexcerpt {font-family: 'Museo Slab W01'; font-size: 1em; font-weight: 100;}
+
+
+/*.dotted-border-top{border-style: dotted; border-width: 5px; border-image: url('img/dotted-border-single.jpg') 8 0 0 0 repeat repeat} 
+.dotted-border-bottom{border-style: dotted; border-width: 5px; border-image: url('img/dotted-border-single.jpg') 0 0 8 0 repeat repeat; padding-bottom: 10px}
+*/
+.cart-dotted-border-top {border-color:#21386e; border-style: dotted dotted dotted none; border-width: 5px 0; width: 90%;}
+h2.featured{color:#656566; font-size: 36px; letter-spacing: 1px; margin-bottom: 10px;  text-transform: uppercase; }
+.customheaderimg h1 { color: #fff}
+h1.featured{color:#21386e; font-size: 36px; letter-spacing: 4px; margin: 30px auto 50px;  text-transform: uppercase; }
+.post-4807 h1.featured{ margin: 20px auto 50px; }
+h1.pagetitle{color:#fff; font-size: 36px; letter-spacing: 1px; margin-bottom: 10px;  text-transform: uppercase; }
+.post-meta abbr {border: none; color:#656566; cursor: default; display: block; font-size: 18px; margin: 5px auto; text-align: center; font-weight: 200}
+
+.woo-pagination a:link, .woo-pagination, .woo-pagination a, .woo-pagination span.current, .woo-pagination a:visited, .woo-pagination a:active, .nav-entries a span {background: none; box-shadow: none; font-size: 16px; color:#21386e !important}
+body.single-post .entry.postsingle {margin: 0 auto 20px; }
+.blogthumb > p {width:100%}
+
+/* Homepage Slider Links */
+
+.wooslider-theme-business .layout-text-center.has-featured-image .slide-content, .wooslider-theme-business .layout-text-center.has-featured-image .slide-excerpt, .wooslider-theme-business .layout-text-none.has-featured-image .slide-content, .wooslider-theme-business .layout-text-none.has-featured-image .slide-excerpt {
+bottom: inherit; height: 100% !important;left: 0 !important;right: 0 !important;text-align: center;top: 0 !important;padding: 0 !important;width: 100%!important; }
+.slide-excerpt>p {text-indent: -9999px}
+.slide-excerpt:hover  {cursor: pointer}
+
+/* Woocommerce Styles */
+
+.woocommerce .summary p.price {font-weight: 100}
+.woocommerce .summary p {margin-bottom: 0}
+div.pp_details .pp_nav {display: none !important}
+.menu-item-has-children a + ul {-webkit-box-shadow: 24px 33px 30px -43px rgba(51,51,51,1);-moz-box-shadow: 24px 33px 30px -43px rgba(51,51,51,1);box-shadow: 24px 33px 30px -43px rgba(51,51,51,1);}
+#navigation ul.cart a.cart-contents + ul {left: auto !important; right: 0 !important; -webkit-box-shadow: 24px 33px 30px -43px rgba(51,51,51,1);-moz-box-shadow: 24px 33px 30px -43px rgba(51,51,51,1);box-shadow: 24px 33px 30px -43px rgba(51,51,51,1);}
+#navigation ul.cart a.cart-contents {overflow: hidden; font-size: 0.9em; letter-spacing: 1px}
+.woocommerce .summary p.price {color:#21386e;}
+.summary.entry-summary > div > p {color:#21386e;}
+.related.products>h2{text-align: center}
+.related h2 {color:#21386e;font-family: 'Museo Slab W01'; font-weight: 100; font-size: 26px}
+.related.products > h2 {/*background-image: url("img/you-may-also-like.png"); */background-position: center bottom; background-repeat: no-repeat; padding: 40px 0 30px;text-align: center;}
+
+.woocommerce .images .thumbnails a {float: left;   margin-right: 1%;   width: 14.75%;}
+.woocommerce .summary form {border: 0; padding: 0}
+.woocommerce .summary p.price {margin: 30px 0}
+.woocommerce .summary h1.product_title {margin: 0 0 30px; text-transform: uppercase;}
+.product .sku_wrapper {display: none !important; }
+.summary>form.cart>.boylanaddbutton {height: 50px;   background-image: url('img/single-product-ribbon.png') !important; background-repeat: no-repeat !important; border-radius: 0 !important; background-color:transparent !important; font-size: 1.3em !important; text-transform: uppercase; text-align: left !important; width:90% !important; background-position: 0 0 !important; box-shadow: 0 0 0 0 #fff !important}
+.summary>form.cart>.boylanaddbutton:hover {height: 50px;   background-image: url('img/single-product-ribbon.png') !important; background-repeat: no-repeat !important; border-radius: 0 !important; background-color:transparent !important; font-size: 1.3em !important; text-align: left !important; width:90% !important; background-position: 0 -50px !important; box-shadow: 0 0 0 0 #fff !important}
+h1.product_title {font-family: 'District Pro W01'; font-size: 2.3em}
+.boylanaddbutton:hover {text-decoration: underline}
+.product-details .stock {display: none}
+.moredetails {color:#21386e; vertical-align: top; padding-left: 10px}
+.summary .quantity.buttons_added, .product-details .quantity.buttons_added  {display: none;}
+.descriptionInfo {padding-top: 30px}
+.descriptionInfo > p {width: 90%; padding-bottom: 30px}
+
+a.woocommerce-main-image {border: 1px solid #23376f; padding: 20px}
+.woocommerce-result-count {visibility: hidden}
+.woocommerce .images .thumbnails {display: none}
+.woocommerce-ordering {visibility: hidden}
+#widecontentarea {background-image: url('img/product-bg-top.png'); background-repeat: repeat-x; padding-top: 2em}
+.term-description p, h1.term-description{text-align: center; font-size: 1.8em; margin: 0 auto; text-transform: uppercase; color:#656566}.blogsubtitle {font-size: 1.2em;}ul.products li.product { margin-bottom: 3.5em}
+#signupbelow { opacity: 0.9; background:url("https://boylanv2.s3.amazonaws.com/wp-content/uploads/2014/11/newsletter-ribbon.png") no-repeat; position: fixed; top: 20px; left: 0px; height: 22px; width: 200px; padding: 8px; color: #fff; z-index: 99; display:block; } a.signuplink, a.signuplink:hover {color: #fff;font-family: "District Pro W01";padding-left: 10px}
+#navigation {z-index: 90}
+
+.woocommerce_message, .woocommerce_info, .woocommerce_error, .woocommerce-message, .woocommerce-info, .woocommerce-error { color: red; padding: 0; margin: 0; border: 0; border-radius: 0}
+.woocommerce-message a.button{padding: 1px 4px; font-size: 0.757em; float:left; margin: 0 10px 0 0}
+.woocommerce-message { padding: 0 !important; margin: 0px !important; background-color:transparent}
+.woocommerce-message:before { content: ""}
+/*background-image: url("img/product-divider.jpg"); background-repeat: no-repeat; background-position:  330px center; */
+ul.products li.product {width: 30%}
+ul.products li.product a img {width: 80%; margin: 0 auto}
+ul.products li.product {margin-right: 0; padding-right: 3.8%}
+ul.products li.product.first {padding-left: 0;}
+ul.products li.product.last {padding-right: 0; background-image: none}
+.product-details button.button {background-color:#cea180 !important; margin-bottom: 15px}
+button.button {font-family: 'museo slab w01'}
+.wooslider .wooslider-direction-nav a{opacity: 0.5;color:rgba(255, 255, 255, 0.8)}
+.wooslider ul.slides img {padding: 9px 0 0;}
+div.maincatdetail h3, h3.home_post_title {font-size: 1.3em; margin: 20px auto 15px; text-transform: uppercase; color:#656566;letter-spacing: 3px}
+div.maincatdetail p { color: #B3B1B1; font-size: 1.1em}
+
+.term-description{ text-align: center}
+.term-description hr { background-color: #cfcfcf; border: medium; height: 1px; z-index: 1; left: 0; width: 100%; position: absolute; top: 25px}
+
+.term-description h2 { background-color: #fff; z-index: 2; display: inline-block; text-transform: uppercase; margin: 20px auto 0; position: relative; padding: 0 20px; color: #656565; letter-spacing: 3px; font-weight: 100}
+
+/* Cart image */
+table.cart img { width: 75px}
+
+
+/* Seltzers Category Styles  */
+body.term-seltzers ul.products{margin:0 auto 1.5em}
+body.term-seltzers ul.products .post-274 {margin-right: 3.8% !important; width: 45%  }
+body.term-seltzers ul.products .post-291 {margin-right: 0 !important;width: 45%; padding: 0 !important }
+body.term-seltzers ul.products .post-1916 {margin-right: 3.8% !important; padding-right: 3.8% !important;width: 45% }
+body.term-seltzers ul.products .post-4478 {margin-right: 0 !important;width: 45%; clear: none !important;padding: 0 !important }
+body.tax-product_cat.term-seltzers ul.products { width: 640px}
+
+/* div.pp_over, div.pp_pic_holder {display: none !important} */
+
+/******* Locator Styles ******/
+.hc .form-horizontal .control-group {margin: 3em auto 3em; text-align: center; width: 100%;}
+.hc .form-horizontal .control-label {float: none; text-align: none; display: inline-block;}
+.hc form {margin: 0 0 0;}
+.hc .form-horizontal #lpr-search-controls {margin: 0 auto 3em; text-align: center; display: inline-block; padding: 0 5px}
+.hc .form-horizontal .controls {margin-left: 0}
+
+/******* Contact Form Styles ******/
+div.wpcf7 {margin: 0; padding: 0; }
+div.wpcf7-response-output {margin: 2em 0.5em 1em; padding: 0.2em 1em; text-align: center }
+div.wpcf7 .screen-reader-response {position: absolute; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); height: 1px; width: 1px; margin: 0; padding: 0; border: 0; }
+div.wpcf7-mail-sent-ok {border: 2px solid #398f14;}
+div.wpcf7-mail-sent-ng {border: 2px solid #ff0000;}
+div.wpcf7-spam-blocked {border: 2px solid #ffa500;}
+div.wpcf7-validation-errors {color:red;}
+span.wpcf7-form-control-wrap {position: relative;}
+span.wpcf7-not-valid-tip {color:#f00; font-size: 1em; display: block; }
+.use-floating-validation-tip span.wpcf7-not-valid-tip {position: absolute; top: 20%; left: 20%; z-index: 100; border: 1px solid #ff0000; background: #fff; padding: .2em .8em; }
+span.wpcf7-list-item {margin-left: 0.5em;}
+.wpcf7-display-none {display: none;}
+div.wpcf7 img.ajax-loader {border: none; vertical-align: middle; margin-left: 4px; }
+div.wpcf7 div.ajax-error {display: none;}
+div.wpcf7 .placeheld {color:#888;}
+
+
+/******* Footer Styles ******/
+.footer-widget-1 ul.menu li {display: inline-block; padding-right: 10px; color:#fff;}
+.footer-widget-1 ul.menu li a{color:#fff;letter-spacing: 2px; font-weight: 100; line-height: 33px; text-transform: uppercase; font-size: 0.9em}
+#footer { text-transform: uppercase; font-size: 0.9em; letter-spacing: 2px}
+#footer-widgets .block {padding-top: 12px; width:30%}
+#nav_menu-2 {margin-bottom: 10px}
+.icon-2x {vertical-align: middle}
+#footer>a { color: #fff}
+#footer>a:hover { text-decoration: underline}
+#menu-footer {text-align: center; padding: 60px 0 20px; text-transform: uppercase}
+#menu-footer li {display: inline-table;}
+#menu-footer li a {color: #fff;line-height: 2.5em; padding: 0 4em; letter-spacing: 2px; font-size: 0.9em}
+#menu-footer li a:hover {color: #fff; text-decoration: none !important}
+li.no-border {border: 0 !important}
+li.no-border a:hover,li.no-border a,a.blogexcerpt:hover {text-decoration: none !important }
+#copyright {text-align: center; margin: 10px auto 30px; color:#21386e; font-size: .9em; font-weight: 100; letter-spacing: 1px; text-transform: uppercase}
+#menu-item-4117:before {content: "FOLLOW US: ";font-family: 'district pro w01'; padding-left: 25px; padding-right: 4px; font-weight: 100; letter-spacing: 1px }
+#menu-item-4117 a {display: block; height: 30px; width: 30px; outline: none; display: inline-block;background-image: url('img/social-icons.png'); background-position: 0 0;text-indent: -9999px; }
+#menu-item-4116 a {display: block; height: 30px; width: 30px; outline: none; background-image: url('img/social-icons.png'); background-position: 30px 0;text-indent: -9999px; margin: 0 auto}
+#menu-item-4118 a {display: block; height: 30px; width: 30px; outline: none; background-image: url('img/social-icons.png'); background-position: 60px 0;text-indent: -9999px; margin: 0 auto}
+#menu-item-4119 a {display: block; height: 30px; width: 30px; outline: none; background-image: url('img/social-icons.png'); background-position: 90px 0; text-indent: -9999px; margin: 0 auto}
+#menu-item-4117, #menu-item-4116, #menu-item-4118, #menu-item-4119 {padding: 0 !important}
+.product-details button.button {background-image: url('img/related-ribbon-add.png') !important; margin-bottom: 15px; width: 200px; background-color:#fff !important; box-shadow: none !important; height: 38px; letter-spacing: 1px; font-weight: 300}
+.product-details button.button:hover {background-position: 0 38px !important}
+
+
+/*
+.relatedproducts {background-image: url('img/see-all-products.png') !important; margin-bottom: 15px; width: 320px; height: 55px; margin: 0 auto; background-color:#fff !important; box-shadow: none !important; }
+.relatedproducts:hover {background-position: 0 55px !important}
+*/
+.relatedproducts {background: url('img/see-all-products.png') top center !important; margin-bottom: 15px; width: 320px; height: 55px; margin: 0 auto; background-color:#fff !important; box-shadow: none !important; position: relative }
+.relatedproducts span {position: absolute; top:0; left:0; width: 320px; height: 55px; background:url('img/see-all-products.png') bottom center;
+ opacity: 0; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
+.relatedproducts span:hover {opacity: 1 }
+#menu-item-403>ul.sub-menu {background-color:#000 !important}
+
+
+/** Updates 7/15/15 **/
+
+
+/* mobile Navigation Styles */
+
+.nav-toggle.icon > a {background-image: url('img/icon.png'); background-repeat: no-repeat; background-position: center bottom; text-indent: -9999px}
+ul.nav li.current_page_item a, ul.nav li.current_page_parent a, ul.nav li.current-menu-ancestor a, ul.nav li.current-cat a, ul.nav li.current-menu-item a {color:#23376F }
+.nav-toggle a {text-shadow: none; padding: 1.5em 0.5em 1.2em; margin-left: -4.4em; position: absolute; width: 100%; border: none}
+.nav-toggle:before { font-size: 1.4em; text-shadow: none; padding: 1.2em 1em 0.8em 0.5em}
+.nav-toggle { border-bottom: none}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+.topnav_section .nav_section.first > div, .topnav_section .nav_section.first > ul {margin: 0; padding: 0}
+#menu-item-3627 > a, #menu-item-3646 > a {padding: 0.5em 1.8em; float: left}
+#menu-item-4031 > a {padding: 0.5em 1.8em; float: left}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.topnav_section .nav_section.first > div, .topnav_section .nav_section.first > ul {margin: 0; padding: 0}
+#menu-item-3627 > a, #menu-item-3646 > a, #menu-item-4031 > a {padding: 0.5em .5em; float: left}
+ #menu-item-4031 > a {padding: 0.5em 0; float: left}
+#navigation .nav li.parent > a:after {content:"";}
+#nav-container {margin: 3em 0}
+#menu-item-4031 > ul {padding: 0 !important; margin: 0 !important}
+.menu-item-has-children a + ul {left: -40px !important;}
+
+}
+
+@media only screen and (max-width:975px) {
+	#navigation ul.cart a.cart-contents { text-indent: -999px}
+}
+
+@media only screen and (min-width:768px) {
+	#wrapper #loopedSlider.business-slider .content {width: 50%; top: 20%; bottom: inherit; }
+	ul.nav li a, #navigation ul.rss a, #navigation ul.cart a.cart-contents, #navigation .cart-contents #navigation ul.rss, #navigation ul.nav-search, #navigation ul.nav-search a {font:normal 0.9em 'district pro w01', arial, sans-serif;color:#21366E; } #navigation ul.rss li a:before, #navigation ul.nav-search a.search-contents:before {color:#21366E;}
+#navigation ul.nav > li a:hover, #navigation ul.nav > li:hover, #navigation ul.nav li ul, #navigation ul.cart li:hover a.cart-contents, #navigation ul.nav-search li:hover a.search-contents, #navigation ul.nav-search a.search-contents + ul, #navigation ul.cart a.cart-contents + ul, #navigation ul.nav li.current_page_item a, #navigation ul.nav li.current_page_parent a, #navigation ul.nav li.current-cat a, #navigation ul.nav li.current-menu-item a{background-color:#ffffff}
+#navigation ul.nav > li#menu-item-4031 a:hover, #navigation ul.nav > li#menu-item-4031:hover, #navigation ul.nav li#menu-item-4031 ul, #navigation ul.nav li#menu-item-4031.current_page_parent a:hover, #navigation ul.nav li#menu-item-4031:hover, #navigation ul.nav li#menu-item-4031 + ul, #menu-item-4031:hover a{background-color:#fcedcc !important}
+#navigation ul.nav li ul, #navigation ul.cart > li > ul > div  {border: 0px solid #ffffff; }
+#navigation ul.nav > li:hover > ul  {left: 0; }
+#navigation ul.nav > li  {border-right: 0px solid #ffffff; }#navigation ul.nav > li:hover > ul  {left: 0; }
+#navigation {box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }#navigation ul li:first-child, #navigation ul li:first-child a {border-radius:0px 0 0 0px; -moz-border-radius:0px 0 0 0px; -webkit-border-radius:0px 0 0 0px; }
+#navigation {background:#ffffff;border-top:0px solid #ffffff;border-bottom:0px solid #ffffff;border-left:0px solid #ffffff;border-right:0px solid #ffffff;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+#top, #top ul.nav li ul li a:hover {background:#21386e;}
+#top ul.nav li a:hover, #top ul.nav li.current_page_item a, #top ul.nav li.current_page_parent a,#top ul.nav li.current-menu-ancestor a,#top ul.nav li.current-cat a,#top ul.nav li.current-menu-item a,#top ul.nav li.sfHover, #top ul.nav li ul, #top ul.nav > li:hover a, #top ul.nav li ul li a {color:#21386E!important;}
+#top ul.nav li a:hover, #top ul.nav li.current_page_item a, #top ul.nav li.current_page_parent a,#top ul.nav li.current-menu-ancestor a,#top ul.nav li.current-cat a,#top ul.nav li.current-menu-item a,#top ul.nav li.sfHover, #top ul.nav li ul, #top ul.nav > li:hover {background:#ffffff;}
+#top ul.nav li a {font:normal 11px/1.6em 'Open Sans', arial, sans-serif;color:#ffffff; }
+#top ul.nav li.parent > a:after {border-top-color:#ffffff;}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.nav-toggle {background-color:#fff; background-image: none}
+	.wooslider-slider-business {margin: 0 0 20px !important}
+	#header,body.home .two-one:first-child:after {display: none}
+	div.contactusform {width: 100%}
+	div.contactusform .ar {text-align: left}
+	article.post-3542 section.entry {background-image: none;}
+	ul.products li.product {margin-right: 0; padding-right: 0; background-image: none; width: 100%}
+	div.contactusform input, div.contactusform textarea {width: 100%}
+	article.post-15 {margin: 0 auto; width: 100%}
+	.slide-excerpt {left: 0; right: 0; width: 50%; top:1%; position: absolute; margin: 0 auto; font-size: 14px; text-align: center}
+	h2.slide-title {font: 42px/1em;}
+	#nav-container {margin: 0}
+	#menu-item-4031 > a {padding: 0.5em 2em;}
+	#navigation ul ul {margin: 0 0 0 0;}
+	ul.sub-menu li {text-align: left; padding-left: 2em !important}
+	ul.sub-menu li a:hover {color:#23376F !important}
+	#widecontentarea {background-image: none;}
+	.cart-contents {width: 1em !important;}
+	#navigation ul.cart a.cart-contents:before {text-align: center}
+	.menu-item-has-children a + ul {-webkit-box-shadow: 0;-moz-box-shadow: 0;box-shadow:none;}
+	
+
+ul.products .post-274,ul.products .post-291,ul.products .post-1916,ul.products .post-4478 {width: 100% !important }
+body.tax-product_cat.term-seltzers ul.products { width: 100%}
+body.tax-product_cat.term-seltzers ul.products li { width: 100%}
+.term-description h2, .post-4807 h1 { margin: 0 !important}
+#footer-widgets .block { width: 100%}
+#signupbelow { display: none}
+div.fountain { padding: 20px 0 }
+.heritageinfo { width: 100%}
+
+/*** Instagram Styles **/
+#sb_instagram.sbi_col_4 #sbi_images a {width:90%; margin: 4% !important; display: block}
+#sb_instagram img {float: none; width: 100%}
+#sbi_images a { margin-right: 1.3%; width: 24%}
+#sbi_images a:last-child { margin-right: 0}
+
+}
+
+@media only screen and (max-width: 480px){
+	.wooslider-theme-business .has-featured-image .slide-content, .wooslider-theme-business .has-featured-image .slide-excerpt {
+background: rgba(0, 0, 0, 0) !important; position: absolute; padding: 15px 10px; top: 2%; margin: 0 auto; left: 0; right:0; text-align: center}
+	h2.slide-title {font: 3em/.2em 'District Pro W01' !important}
+	#menu-item-3627 > a, #menu-item-3646 > a,#menu-item-4031 > a  {padding: 0.5em 1.5em; }
+	#menu-footer li {padding: 0; border: none; width: 100%}
+	#menu-item-4117:before {padding: 0; display: block}
+	#footer-widgets .block {width:100%}
+
+
+}
